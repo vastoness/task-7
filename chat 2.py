@@ -35,7 +35,6 @@ def sending_message():
 message=sending_message()
 chat[user1] += [message]
 chat[user2] += [message]
-print(chat)
 class ChatSystem:
     def view_user_messages(self, username):
             if username in self.view_user_messages:
